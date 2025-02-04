@@ -5,8 +5,7 @@
     "main": "dist/script.js",
     "scripts": {
         "build": "tsc",
-        "start": "lite-server",
-        "postinstall": "npm run build"
+        "start": "lite-server"
     },
     "author": "Your Name",
     "license": "ISC",
