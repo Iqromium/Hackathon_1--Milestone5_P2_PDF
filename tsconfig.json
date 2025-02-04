@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // Use ECMAScript 2015 features
+      "module": "commonjs", // Use CommonJS modules
+      "strict": true, // Enable all strict type-checking options
+      "esModuleInterop": true, // Allow import/export interoperability
+      "skipLibCheck": true // Skip type checks for declaration files
+    },
+    }
+  

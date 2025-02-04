@@ -1,0 +1,17 @@
+{
+    "name": "resume-builder",
+    "version": "1.0.0",
+    "description": "A static resume builder using TypeScript",
+    "main": "dist/script.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "lite-server"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.6.1",
+        "typescript": "^5.7.3"
+    },
+    "keywords": []
+}

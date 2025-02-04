@@ -1,0 +1,93 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+    padding:0;
+    background-color:rgb(209, 221, 245);
+    }
+    
+    h1 {
+        text-align: center;
+        color:deeppink;
+        
+    }
+    
+    form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(247, 182, 247);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(111, 243, 34, 0.8);
+    padding: 20px;
+    }
+    
+    fieldset {
+        border: 2px solid #7FFFD4;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(248, 139, 194);
+    }
+    
+    legend {
+        font-weight: bold;
+        text-align: left;
+        color:rgb(113, 5, 122) ;
+        }
+    
+        label {
+            display: block;
+            margin-top: 10px;
+            color:rgb(148, 10, 148);
+        }
+    
+        input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #eb0bc5    ;
+    border-radius: 4px;
+    box-sizing: border-box;
+     }
+    
+    button {
+    display:block;
+    width: 100%;
+    padding: 10px;
+    background-color:#FF1493;
+    color:#7bebc0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    button:hover {
+    background-color: #FF00FF;
+    }
+
+#resumeOutput {
+max-width: 600px;
+margin: auto;
+padding: 20px;
+border: 2px solid #FF1493;
+border-radius: 8px;
+background-color: #a1f7da;
+box-shadow: 0 4px 8px rgba(12, 107, 71, 0.8);
+}
+
+#resumeOutput h2 {
+color: #8d1756;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #298a69;
+    box-shadow: 0 4px 8px rgba(199, 49, 22, 0.8);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    }
