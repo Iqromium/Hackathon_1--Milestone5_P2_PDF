@@ -87,7 +87,7 @@ shareableLinkButton.textContent = "Copy Shareable Link";
 shareableLinkButton.addEventListener("click", async () => {
 try{
 //trigger the creation of a unique shareable link:
-const shareableLink = `${window.location.origin}/resume/${name.replace(
+const shareableLink = `${"https://hackathon-1-milestone5-p2-pdf.vercel.app"}/resume/${name.replace(
 /\s+/g,
  "_")}_resume.html`;
 
